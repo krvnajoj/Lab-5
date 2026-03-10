@@ -29,6 +29,12 @@ nav {
     gap: 1rem;
 }
 
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 main {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-height: 100vh;
