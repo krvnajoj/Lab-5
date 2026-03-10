@@ -47,11 +47,25 @@ nav {
 .form-actions {
     display: flex;
     justify-content: flex-end;
-    max-width: 60px;
+    max-width: 80px;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+.form-actions:hover {
+    background-color: #555;
+}
 
-
+.form:last-of-type {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
 
 .container {
     max-width: 1200px;
