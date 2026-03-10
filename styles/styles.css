@@ -28,6 +28,16 @@ nav {
     gap: 1rem;
 }
 
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto
+}
+
 .nav-footer {
     display: flex;
     justify-content: space-between;
